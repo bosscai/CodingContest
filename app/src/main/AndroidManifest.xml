@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CodingContest">
         <activity
+            android:name=".FourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OneActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
